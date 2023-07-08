@@ -1,0 +1,98 @@
+
+
+.entry-content p a, #content p a{
+    text-decoration: underline;
+}
+
+
+/* -------------------------
+    Color
+--------------------------- */
+
+#sidebar .tagcloud a:hover, .read-moresec a:hover, #slider i:hover, #slider .inner_carousel .view-btn a, #destination hr, .date-color, .page-box:hover .read-more-btn a, #footer input[type="submit"], .copyright, .woocommerce span.onsale, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, #sidebar input[type="submit"], .pagination a:hover, .pagination .current, #footer .tagcloud a:hover, .des_box .des_content, .search-body i, input[type="submit"], .tags p a, #comments a.comment-reply-link, .post-navigation .nav-next a, .post-navigation .nav-previous a, .scrollup i, .widget .woocommerce-product-search button, #sidebar .widget_price_filter .ui-slider-horizontal .ui-slider-range, #sidebar .widget_price_filter .ui-slider .ui-slider-handle, #footer .widget_price_filter .ui-slider-horizontal .ui-slider-range, #footer .widget_price_filter .ui-slider .ui-slider-handle, .single-post .post-breadcrumbs span, #sidebar button[type="submit"], #footer button[type="submit"], .innerlightbox .navigation .nav-next a, .innerlightbox .navigation .nav-previous a, #comments input[type="submit"].submit, .single-post .post-breadcrumbs a:hover,.wp-block-button .wp-block-button__link:hover, .wp-block-button .wp-block-button__link:focus{
+    background: #02c8b0;
+}
+.top-header,.read-more-btn a,.primary-menu ul ul li:hover,#slider .inner_carousel .view-btn a,#slider i:hover,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce .quantity .qty,.wp-block-button__link{
+    border-color: #02c8b0;
+}
+.pagination span, .pagination a, input[type="search"], .read-moresec a, .page-box:hover h4, .read-more-btn a, #footer h3, a.showcoupon, .woocommerce-message::before, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce .quantity .qty, #sidebar caption, #sidebar h3, h2.entry-title, h1.page-title, a, .content-box h2, .page-box-single .metabox, .content-box h3, #footer li a:hover, span.entry-date i, .primary-menu ul li a:hover, .primary-menu ul ul li a, .primary-menu ul ul a, #sidebar ul li a:hover, .widget ul.cart_list li .star-rating, .widget ul.product_list_widget li .star-rating, .woocommerce .woocommerce-product-rating .star-rating, input[type="submit"]:hover, .page-box span.entry-date a:hover, .page-box span.entry-author a:hover, .social-icons i:hover, .top-header .account-btn i:hover, .top-header .account-btn a:hover, #comments a time,#sidebar ul li a:hover, .page-box .entry-date:hover i, .page-box .entry-date:hover a, .page-box .entry-author:hover a, .page-box .entry-author:hover i{
+    color: #02c8b0;
+}
+#footer, .tags p a:hover, .post-navigation .nav-next a:hover, .post-navigation .nav-previous a:hover, .fixed-header, .page-template-home-custom .fixed-header .main-menu, .innerlightbox .navigation .nav-previous a:hover, .innerlightbox .navigation .nav-next a:hover, #sidebar button[type="submit"]:hover, #header, #comments input[type="submit"].submit:hover, .single-post .post-breadcrumbs a{
+    background: #000000;
+}
+.page-template-home-custom .top-header {
+    background: rgb(0 0 0 / 50%);
+}
+.page-box-single h1,.wp-block-button__link{
+    color: #02c8b0 !important;
+}
+nav.woocommerce-MyAccount-navigation ul li{
+    background: #02c8b0 !important;
+}
+
+/* -------------------------
+    Slider
+--------------------------- */
+
+#slider .carousel-caption {
+    left: 30%;
+    right: 30%;
+    bottom: auto;
+    background: rgb(255 255 255 / 50%);
+    padding: 15px;
+}
+#slider .inner_carousel h1 {
+    font-size: 50px;
+    color: #000;
+}
+#slider .inner_carousel p{
+    color: #000;
+}
+
+/* -------------------------
+    Destination
+--------------------------- */
+
+#destination {
+    margin-top: -100px;
+    position: relative;
+}
+.des_box .des_box_img img,.des_box .des_box_img,.des_box .des_content{
+    border-radius: 20px;
+}
+h3.title-btn {
+    display: block;
+    bottom: 45px;
+    font-size: 22px;
+    background: #02c8b0;
+    border-radius: 0 0 20px 20px;
+}
+/*woocommerce*/
+.woocommerce table.cart td.actions .input-text{
+    width: 118px;
+}
+/* -------------------------
+    Media
+--------------------------- */
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .primary-menu ul ul a, .primary-menu a,.primary-menu ul li a{
+        color: #02c8b0;
+    }
+    .primary-menu ul ul a{
+        color: #02c8b0 !important;
+    }
+    #destination{
+        position: static;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .primary-menu ul li a, .primary-menu ul ul li a, .primary-menu ul ul li a:hover, .primary-menu ul ul a, .primary-menu a, .primary-menu a:hover{
+        color: #02c8b0 !important;
+    }
+    #slider .inner_carousel h1 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,42 @@
+/*
+Theme Name: Tour Traveler
+Theme URI: https://www.themeseye.com/wordpress/free-traveler-wordpress-theme/
+Author: ThemesEye
+Author URI: https://www.themeseye.com/
+Description: Tour Traveler website is a stunning WordPress theme with a professional appeal for businesses related to travel agencies, travel magazines, tourist guides, holiday resorts, travel bloggers, hoteling businesses, tour planners, local as well as international tourism agencies, and more. Developers have made it SEO-friendly by including highly optimized codes. These codes not only work for fetching top ranks in the search engine results but also result in a streamlined and lightweight design that gives quick loading pages and faster page load time. Apart from clean and secure codes, you do get many Call To Action Buttons (CTA) included working in a direction for improving your conversion rates. Visual appeal is great and to add to that, there is a wonderful banner and a responsive slider. The theme is designed using the Bootstrap framework which means, tweaking is made easy. There are plenty of styling options as well as display options provided to you. Beautiful CSS animations are added to the theme to make it more interesting and interactive. This theme is not only retina-ready but also responsive and mobile-friendly making your website work phenomenally well on several devices including smartphones. You will be able to achieve a lot using the social media options of this theme as it helps you to expand your reach.
+Version: 1.2.6
+Requires at least: 5.4
+Tested up to: 6.2
+Requires PHP: 7.2
+License: GNU General Public License v3.0 or later
+License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3.0
+Text Domain: tour-traveler
+Template: tafri-travel
+Tags:left-sidebar, right-sidebar, one-column, two-columns, grid-layout, block-styles, wide-blocks, flexible-header, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, full-width-template, theme-options, post-formats, threaded-comments, blog, e-commerce, portfolio
+
+Tour Traveler WordPress Theme, Copyright 2021, ThemesEye
+Tour Traveler is distributed under the terms of the GNU GPL
+
+*/
+.woocommerce ul.products li.product .button {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.related-posts .read-more-btn a{
+    margin-top: 10px;
+    padding: 14px 25px !important;
+}
+.related-posts h3 {
+    margin-top: 10px;
+}
+.comment-form-url input#url {
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+    display: block;
+    border: 1px solid #bcbcbc;
+}
+.single-post ul.post-categories {
+    margin-top: 15px !important;
+}
